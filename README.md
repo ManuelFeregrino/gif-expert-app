@@ -1,3 +1,3 @@
 # GifExpertApp
 
-Este es mi repositorio del proyecto de GiftExpertApp
+Repositorio del proyecto de GiftExpertApp
