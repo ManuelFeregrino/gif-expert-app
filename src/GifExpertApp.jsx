@@ -6,6 +6,7 @@ export const GifExpertApp = () => {
     const [categories, setCategories] = useState(['One Punch']);
 
     const onAddCategory = (value) => {
+        console.log('onAddCategory', value);
         if (categories.includes(value)) return;
 
         setCategories([value, ...categories]);
@@ -17,7 +18,7 @@ export const GifExpertApp = () => {
         <h1>GifExpertApp</h1>
 
         {/* Input */}
-        <AddCategory 
+        <AddCategory aria-label="textbox"
             // setCategories={setCategories}
             onNewCategory={(value) => onAddCategory(value)}
         />
